@@ -3,7 +3,7 @@ const express = require('express')
 const routes = express.Router()
 
 routes.get('/', (req, res) => {
-    return res.send('ok')
+    return res.render('layout')
 })
 
 // error 404

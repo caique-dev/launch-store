@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --primary-color: #fd952f;
+    --secondary-color: #1fd4fd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+html, body {
+    font-family: "Roboto", "sans-serif";
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header, footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 32px 0;
+    text-align: center;
+}
+
+header div.container {
+    display: grid; 
+    grid-template-columns: 220px auto 280px;
+    align-items: center;
+    grid-gap: 24px
+}
+
+/* LOGO */
+
+header .container a {
+    justify-self: start;
+}
+
+.logo h1 {
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff;
+}
+
+.logo h2 {
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* SEARCH */
+
+.search input {
+    width: 100%;
+    border-radius: 2px;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+/* PRIMARY NAV */
+
+nav.primary ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.primary ul li a {
+    transition: .4s;
+    color: #fff;
+    display: glex;
+    align-items: center;
+}
+
+nav.primary ul li a:hover {
+    color: var(--primary-color);
+}
+
+nav.primary ul li i {
+    margin-right: 8px;
+}
