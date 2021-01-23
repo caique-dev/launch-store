@@ -79,7 +79,7 @@ nav.primary ul {
 }
 
 nav.primary ul li a {
-    transition: .4s;
+    transition: .2s;
     color: #fff;
     display: glex;
     align-items: center;
